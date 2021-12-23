@@ -1,0 +1,31 @@
+Q 1 : write a blog on difference between HTTP1.1 vs HTTP2 ?
+
+Ans:    -HTTP1.1                                                                
+     
+     1.  It keeps all the requests and responses in plain 
+         text format.                                  
+      
+     2.  It is the most standarized way for a requests and responses.
+     
+         
+             eg: GET /index.html HTTP/1.1
+             Host: www.example.com
+
+        -HTTP2
+
+      1. It uses the binary framing layer to combine all messages in                                                                            binary format, while still maintains HTTP semantics, such as                                                                           verbs, methods, and headers.
+      
+      2. It automatically converts all the text formats into binary when 
+         introduced to a new protocol and is a protocol for greater performance.
+
+Q 2 : Write a blog about objects and its internal representation in Javascript 
+ 
+Ans : Objects are the representation of any kind of entities in any language which 
+      represent things by defining its properties with their values. In Javascript, 
+      objects may be defined as collection of related data, of primitive or reference
+      types, in the form of “key: value” pairs.
+
+      eg :
+        var car2 = Object.create(car);
+        car.id=3113;
+        car.name='audi';
